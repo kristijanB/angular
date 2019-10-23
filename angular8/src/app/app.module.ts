@@ -7,12 +7,14 @@ import {FormsModule} from "@angular/forms";
 import {ServerComponent} from "./server/server.component";
 import {HttpClientModule} from "@angular/common/http";
 import { ServersComponent } from './servers/servers.component';
+import {CockpitComponent} from './cockpit/cockpit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
-    ServersComponent
+    ServersComponent,
+    CockpitComponent
   ],
   imports: [
     BrowserModule,
